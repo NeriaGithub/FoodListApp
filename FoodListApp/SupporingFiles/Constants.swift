@@ -7,6 +7,7 @@
 
 import Foundation
 
+// MARK: Strings 
 struct Constants {
     static let segueIdentifier = "segueSAddFoodViewController"
     static let cellIdentifier = "FoodCell"
