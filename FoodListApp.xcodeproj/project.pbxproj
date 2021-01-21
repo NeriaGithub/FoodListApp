@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,8 +12,15 @@
 		D6545EAE25B99C6600AAFE8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6545EAD25B99C6600AAFE8C /* SceneDelegate.swift */; };
 		D6545EB025B99C6600AAFE8C /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6545EAF25B99C6600AAFE8C /* ListViewController.swift */; };
 		D6545EB325B99C6600AAFE8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6545EB125B99C6600AAFE8C /* Main.storyboard */; };
-		D6545EB525B99C6900AAFE8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6545EB425B99C6900AAFE8C /* Assets.xcassets */; };
 		D6545EB825B99C6900AAFE8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6545EB625B99C6900AAFE8C /* LaunchScreen.storyboard */; };
+		D6545EDD25B9A70300AAFE8C /* CosmosViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6545EDC25B9A70300AAFE8C /* CosmosViewExtension.swift */; };
+		D6545EEA25B9A83900AAFE8C /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6545EE925B9A83900AAFE8C /* Food.swift */; };
+		D6545EED25B9A87100AAFE8C /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6545EEC25B9A87100AAFE8C /* FoodCell.swift */; };
+		D6545EF025B9A88600AAFE8C /* FoodCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6545EEF25B9A88600AAFE8C /* FoodCell.xib */; };
+		D6545EF625B9A8A200AAFE8C /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6545EF525B9A8A200AAFE8C /* TableController.swift */; };
+		D6545EF925B9A8AA00AAFE8C /* AddFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6545EF825B9A8AA00AAFE8C /* AddFoodViewController.swift */; };
+		D6545EFC25B9A8B400AAFE8C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6545EFB25B9A8B400AAFE8C /* Constants.swift */; };
+		D6545F1C25B9B9ED00AAFE8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6545F1B25B9B9ED00AAFE8C /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +32,16 @@
 		D6545EAD25B99C6600AAFE8C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D6545EAF25B99C6600AAFE8C /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		D6545EB225B99C6600AAFE8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D6545EB425B99C6900AAFE8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6545EB725B99C6900AAFE8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6545EB925B99C6900AAFE8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6545EDC25B9A70300AAFE8C /* CosmosViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmosViewExtension.swift; sourceTree = "<group>"; };
+		D6545EE925B9A83900AAFE8C /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		D6545EEC25B9A87100AAFE8C /* FoodCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
+		D6545EEF25B9A88600AAFE8C /* FoodCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoodCell.xib; sourceTree = "<group>"; };
+		D6545EF525B9A8A200AAFE8C /* TableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
+		D6545EF825B9A8AA00AAFE8C /* AddFoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFoodViewController.swift; sourceTree = "<group>"; };
+		D6545EFB25B9A8B400AAFE8C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D6545F1B25B9B9ED00AAFE8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +70,6 @@
 				1B42C6F37F085490B4668F7A /* Pods-FoodListApp.debug.xcconfig */,
 				1E9470F749C01EBC9CE0E883 /* Pods-FoodListApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -84,7 +97,7 @@
 				D6545EC325B99CA500AAFE8C /* Models */,
 				D6545EC225B99C9E00AAFE8C /* Views */,
 				D6545EC125B99C9800AAFE8C /* Controllers */,
-				D6545EC025B99C9300AAFE8C /* SupporingFiels */,
+				D6545EC025B99C9300AAFE8C /* SupporingFiles */,
 				D6545EAB25B99C6600AAFE8C /* AppDelegate.swift */,
 				D6545EAD25B99C6600AAFE8C /* SceneDelegate.swift */,
 				D6545EB925B99C6900AAFE8C /* Info.plist */,
@@ -92,19 +105,23 @@
 			path = FoodListApp;
 			sourceTree = "<group>";
 		};
-		D6545EC025B99C9300AAFE8C /* SupporingFiels */ = {
+		D6545EC025B99C9300AAFE8C /* SupporingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				D6545EB425B99C6900AAFE8C /* Assets.xcassets */,
+				D6545EFB25B9A8B400AAFE8C /* Constants.swift */,
+				D6545EE025B9A72900AAFE8C /* Extensions */,
 				D6545EB625B99C6900AAFE8C /* LaunchScreen.storyboard */,
+				D6545F1B25B9B9ED00AAFE8C /* Assets.xcassets */,
 			);
-			path = SupporingFiels;
+			path = SupporingFiles;
 			sourceTree = "<group>";
 		};
 		D6545EC125B99C9800AAFE8C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				D6545EAF25B99C6600AAFE8C /* ListViewController.swift */,
+				D6545EF525B9A8A200AAFE8C /* TableController.swift */,
+				D6545EF825B9A8AA00AAFE8C /* AddFoodViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -113,6 +130,8 @@
 			isa = PBXGroup;
 			children = (
 				D6545EB125B99C6600AAFE8C /* Main.storyboard */,
+				D6545EEF25B9A88600AAFE8C /* FoodCell.xib */,
+				D6545EEC25B9A87100AAFE8C /* FoodCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -120,8 +139,17 @@
 		D6545EC325B99CA500AAFE8C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D6545EE925B9A83900AAFE8C /* Food.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		D6545EE025B9A72900AAFE8C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D6545EDC25B9A70300AAFE8C /* CosmosViewExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,7 +212,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6545EB825B99C6900AAFE8C /* LaunchScreen.storyboard in Resources */,
-				D6545EB525B99C6900AAFE8C /* Assets.xcassets in Resources */,
+				D6545EF025B9A88600AAFE8C /* FoodCell.xib in Resources */,
+				D6545F1C25B9B9ED00AAFE8C /* Assets.xcassets in Resources */,
 				D6545EB325B99C6600AAFE8C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,7 +267,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6545EDD25B9A70300AAFE8C /* CosmosViewExtension.swift in Sources */,
+				D6545EED25B9A87100AAFE8C /* FoodCell.swift in Sources */,
 				D6545EB025B99C6600AAFE8C /* ListViewController.swift in Sources */,
+				D6545EF925B9A8AA00AAFE8C /* AddFoodViewController.swift in Sources */,
+				D6545EFC25B9A8B400AAFE8C /* Constants.swift in Sources */,
+				D6545EF625B9A8A200AAFE8C /* TableController.swift in Sources */,
+				D6545EEA25B9A83900AAFE8C /* Food.swift in Sources */,
 				D6545EAC25B99C6600AAFE8C /* AppDelegate.swift in Sources */,
 				D6545EAE25B99C6600AAFE8C /* SceneDelegate.swift in Sources */,
 			);
@@ -387,7 +422,7 @@
 			baseConfigurationReference = 1B42C6F37F085490B4668F7A /* Pods-FoodListApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3V5PB2ET49;
 				INFOPLIST_FILE = FoodListApp/Info.plist;
@@ -407,7 +442,7 @@
 			baseConfigurationReference = 1E9470F749C01EBC9CE0E883 /* Pods-FoodListApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3V5PB2ET49;
 				INFOPLIST_FILE = FoodListApp/Info.plist;

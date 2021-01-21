@@ -2,18 +2,32 @@
 //  AppDelegate.swift
 //  FoodListApp
 //
-//  Created by Neria Jerafi on 21/01/2021.
+//  Created by Neria Jerafi on 19/01/2021.
 //
 
 import UIKit
+import IQKeyboardManagerSwift
+import RealmSwift
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // MARK: IQKeyboard Setting
+        IQKeyboardManager.shared.enable = true
+        IQKeyboardManager.shared.enableAutoToolbar = false
+        IQKeyboardManager.shared.shouldResignOnTouchOutside = true
+        
+        
+        // MARK: Realm DB  Initialization
+        print(Realm.Configuration.defaultConfiguration.fileURL ?? "")
+        do {
+            let _ =  try  Realm()
+        } catch  {
+            print(error)
+        }
         return true
     }
 

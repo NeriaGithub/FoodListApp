@@ -6,4 +6,5 @@ use_frameworks!
 pod 'SwipeCellKit'
 pod 'RealmSwift'
 pod 'IQKeyboardManagerSwift'
+pod 'Cosmos', '~> 23.0'
 end
